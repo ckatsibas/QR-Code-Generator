@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QR Code Generator</title>
+    <script src="scripts/qrcode.min.js"></script>
+    <!-- svg-exportJS library -->
+    <script src="https://cdn.jsdelivr.net/gh/sharonchoong/svg-exportJS@master/dist/umd/svg-export.umd.standalone.min.js"></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body class="body">
+    <div class="page">
+      <div class="container-div">
+        <div id="inputDiv">
+          <h2><strong>Enter your text or URL</strong></h2>
+          <input type="text" placeholder="Text or Url" />
+        </div>
+        <div id="qrCodeContainer"></div>
+        <div id="ui-div">
+          <button id="qrButton" onclick="generateQR()">
+            <strong>Generate QR Code</strong>
+          </button>
+          <button id="downloadSVGButton" onclick="downloadSVG()">
+            <strong>Download SVG</strong>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/qrCodeGeneration.js"></script>
+    <script src="scripts/downloadQR.js"></script>
+  </body>
+</html>
