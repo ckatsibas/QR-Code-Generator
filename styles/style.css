@@ -83,7 +83,7 @@ input {
 
 #qrButton {
   width: 100%;
-  padding: 16px;
+  padding: 12px;
   border-radius: 8px;
   filter: drop-shadow(5px 5px 7px hsl(0, 0%, 40%));
   color: hsl(240 10% 100%);
@@ -92,7 +92,7 @@ input {
 
 #downloadSVGButton {
   width: 100%;
-  padding: 16px;
+  padding: 12px;
   border-radius: 8px;
   filter: drop-shadow(5px 5px 7px hsl(0, 0%, 40%));
   color: hsl(240 10% 100%);
